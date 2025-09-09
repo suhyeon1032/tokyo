@@ -1,8 +1,8 @@
 # tokyo
 
-신한 GYC GIT 수업
+신한 GYC IT 수업 내용 정리
 
 
 
-\## 20250909 신한 GYC GIT 수업시간 입니댜 🤗
+\## \[20250909](https://velog.io/@daram9/이것이-자바다-Chapter01) ##
 
