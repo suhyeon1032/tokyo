@@ -10,9 +10,9 @@
 
 <div markdown="1">
 
-&nbsp; 
 
-\[20250909 블로그 정리](https://velog.io/@daram9/이것이-자바다-Chapter01)
+
+[20250909 블로그 정리](https://velog.io/@daram9/이것이-자바다-Chapter01)
 
 
 
