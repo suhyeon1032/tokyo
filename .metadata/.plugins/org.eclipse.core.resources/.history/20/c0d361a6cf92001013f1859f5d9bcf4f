@@ -1,7 +1,0 @@
-package dya4;
-
-public class Pizza {
-
-	private String name;
-	private String size;
-}
