@@ -1,0 +1,46 @@
+package ch1;
+
+import java.util.Scanner;
+
+/*
+ * 조건문이란?
+ * 조건이 참이면 실행
+ * 
+ * if(조건) {
+ *	실행문 
+ * }
+ * */
+public class Control1 {
+
+	public static void main(String[] args) {
+
+		// if 문
+		if (true) { // 조건 문
+			// 실행 문
+			System.out.println("참입니다.");
+		}
+
+		// if-else 문
+		if (10 > 20) { // 이 조건이 참이면 실행
+			System.out.println("10은 20보다 크다");
+		} else { // 위의 조건이 실행되지 않으면 실행
+			System.out.println("10은 20보다 작다");
+		}
+
+		System.out.println("==============");
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("점수를 입력해주세요 : ");
+		int score = sc.nextInt(); 
+
+		// if-else if -else
+		if (score >= 90) { // 이 조건이 참이면 실행
+			System.out.println("90점 이상");
+		} else if (score >= 80) { // 이 조건이 참이면 실행
+			System.out.println("80점 이상");
+		} else { // 위의 조건을 만족시키지 못하면 아래 구문 실행
+			System.out.println("79점 미만입니다.");
+		}
+	}
+}

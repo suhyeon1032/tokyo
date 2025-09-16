@@ -1,0 +1,70 @@
+package ch1;
+
+/*
+ * 클래스
+ * 설계도, 객체를 만들기 위한 툴
+ * 상태(속성)와 행위(메서드)를 가짐
+ * 
+ * 속성 Attribute == filed
+ * 객체가 가지는 변수의 성격
+ * 특정한 값을 가질 수 있으며, 객체의 속성 값은 객체의 상태를 표현
+ * 
+ * 메서드 Method
+ * 데이터를 조작
+ * 메서드를 호출하여 객체의 상태를 변경하거나 내부 상태 값을 가져올 수 있음
+ * 
+ * ==============
+ * class 클래스명 {
+ * 	필드1
+ * 	필드2
+ * 
+ * 	생성자1
+ * 	생성자2
+ * 
+ * 	메서드1
+ * 	메서드2
+ * 
+ * }
+ * */
+public class TestData {
+	
+	// 멤버(전역)변수 // 전역에 영향을 끼치는 변수 : 클래스 안에 선언된 변수로 실제 데이터가 저장되는 공간
+	int field1; 
+	private float field2;
+	double field3;
+	short field4;
+	boolean field5;
+	String field6;
+	
+	/*
+	 * 생성자 Constructor
+	 * 객체를 만들 때 (new 키워드) 자동으로 호출되는 특별 메서드
+	 * 초기값 설정 때 주로 사용
+	 * 객체를 만들자마자 동작하게 할 수 있음
+	 * 
+	 * 특징)
+	 * 클래스 이름과 동일한 이름을 가짐
+	 * 리턴 타입 없음, void도 안 씀
+	 * 객체를 만들 때만 실행됨
+	 * 
+	 * */
+	
+//	TestData() {} // 자바는 자동으로 기본 생성자를 만들어 줌. 단 매개변수가 있는 경우 직접 작성해야 함
+//	TestData t = new TestData();
+	
+	TestData() {}
+	
+	TestData(int field1) {
+		// this 키워드 : 객체 자신을 나타내는 키워드
+		// 객체 자신의 필드를 참조하거나 해당 클래스의 다른 생성자를 호출 할 때 사용
+		// static 메소드에서는 this 사용할 수 없음
+		this.field1 = field1; // (뒤에 있는 field1) 매개변수로 들어오는 값을 대입
+	}
+	
+	public void method1() {
+		System.out.println("메서드1");
+	}
+	public int int1() {
+		return this.field1;
+	}
+}

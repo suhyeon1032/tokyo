@@ -1,0 +1,10 @@
+package dya4;
+
+public class InstagramPost {
+	private String user;
+	private String content;
+	
+	
+	
+	
+}

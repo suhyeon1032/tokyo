@@ -1,0 +1,45 @@
+package ch2;
+
+import java.util.Scanner;
+
+public class Deposit {
+
+	public static void main(String[] args) {
+		
+		boolean run = true;
+		int num, money, balance = 0; // 번호, 입출금액, 잔고
+		Scanner sc = new Scanner(System.in);
+		
+		while (run) {
+			System.out.println("-----------------------------------");
+			System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료");
+			System.out.println("-----------------------------------");
+			System.out.println("선택> ");
+
+			num = sc.nextInt();
+			
+
+			switch (balance) {
+			case 1:
+				System.out.println("입금액을 입력하세요. : ");
+				
+
+			case 2:
+				System.out.println("출금");
+
+			case 3:
+				System.out.println("잔고 : " + money+ "원");
+
+			case 4:
+				run = false;
+				break;
+
+			default:
+				System.out.println("잘못된 입력입니다.");
+			}
+
+			System.out.println("프로그램 종료");
+		}
+
+	}
+}

@@ -1,0 +1,26 @@
+package Exam;
+
+import java.util.Scanner;
+
+public class day2Ex02 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		// #1
+		System.out.println("치킨 수를 입력하세요. : ");
+		int c = sc.nextInt();
+		for(int i = 1; i <= c; i++) System.out.println("치킨 "+ i + "마리 주문이요");
+ 		
+		
+		// #2
+		System.out.println("스쿼트 몇 번 할까요?");
+		int squat = sc.nextInt();
+		for(int i = 1; i <= c; i++) System.out.println("치킨 "+ i + "마리 주문이요");
+
+		System.out.println("오운완");
+		
+	}
+
+}

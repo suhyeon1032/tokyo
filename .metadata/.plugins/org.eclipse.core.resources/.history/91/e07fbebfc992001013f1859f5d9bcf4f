@@ -1,0 +1,40 @@
+package ch1;
+
+public class BreadMain {
+
+	public static void main(String[] args) {
+		// 좋아하는 빵의 객체를 생성자의 매개변수 갯수를 달리하여 두 개 만들고
+		
+		// 매개변수 생성자
+		Bread bread1 = new Bread("FruitsSando", 300, 6000, 2);
+
+		
+		// 기본생성자
+		Bread bread2 = new Bread();
+		bread2.setName("크로와상");
+		bread2.setGram(90);
+		bread2.setPrice(3000);
+		bread2.setCnt(1);
+		
+		System.out.println("제품명 : " + bread2.getName() + " 총 금액 : " + bread1.breadTotal());
+		
+		// 해당 제품명과 금액을 출력
+		
+		System.out.println(bread1.getName() + " " + bread1.breadTotal());
+		System.out.println(bread1.getName() + " " + bread1.breadTotTal(1000));
+		System.out.println(bread1.getName() + " " + bread1.breadTotTal(1000, 3));
+		
+		
+		Bread bread3 = new Bread();
+		bread3.setName("꽈배기");
+		bread3.setGram(10);
+		bread3.setPrice(2000);
+		bread3.setCnt(4);
+		
+		System.out.println(bread3);
+		
+		Bread bread4 = new Bread("피자빵", 200, 3000, 1);
+		System.out.println(bread4.toString());
+	}
+
+}

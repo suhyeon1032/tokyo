@@ -1,0 +1,11 @@
+package ch1;
+// 메서드
+
+public class DogMain {
+
+	public static void main(String[] args) {
+		// Dog 클래스(설계도) 실제 강아지(객체) 만들기
+		Dog dog1 = new Dog("pipi", 3, "mix", "white", 6, false)
+	}
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.awt.Window.Type"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.interpreter.BytecodeDisassembler"/>
+    <fullyQualifiedTypeName name="java.awt.image.PixelInterleavedSampleModel"/>
+    <fullyQualifiedTypeName name="ch1.Scanner"/>
+    <fullyQualifiedTypeName name="sun.security.provider.JavaKeyStore.CaseExactJKS"/>
+    <fullyQualifiedTypeName name="ch1.ScannerEx"/>
+    <fullyQualifiedTypeName name="ch2.ForEx1"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="Test.FristWeek"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="ch1.TestData"/>
+    <fullyQualifiedTypeName name="ch1.Dog"/>
+    <fullyQualifiedTypeName name="ch1.Bread"/>
+    <fullyQualifiedTypeName name="dya4.Pizza"/>
+    <fullyQualifiedTypeName name="dya4.Song"/>
+    <fullyQualifiedTypeName name="java.lang.InstantiationError"/>
+    <fullyQualifiedTypeName name="dya4.InstagramPost"/>
+    <fullyQualifiedTypeName name="dya4.day4Main"/>
+    <fullyQualifiedTypeName name="dya4.DeliveryOrder"/>
+</qualifiedTypeNameHistroy>

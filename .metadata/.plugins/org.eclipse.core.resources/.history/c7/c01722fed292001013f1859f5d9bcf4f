@@ -1,0 +1,17 @@
+package dya4;
+
+public class DeliveryOrder {
+	private String food;
+	private String add;
+	
+	
+	public DeliveryOrder(String food, String add) {
+		super();
+		this.food = food;
+		this.add = add;
+	}
+	
+	pubilc void deliver() {
+		System.out.println("주문이 접수되었습니다. bb");
+	}
+}

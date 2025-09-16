@@ -1,0 +1,24 @@
+package ch1;
+
+public class Control4 {
+	public static void main(String[] args) {
+		// "토요일", "일요일" 을 입력하면 "주말" 출력, 월요일 입력 시 "주중" 출력
+		
+		if () {
+			
+		} else if () {
+			
+		}
+	} else if () {
+		
+	}
+} else if () {
+	
+}
+} else {
+	
+}
+		
+		
+	}
+}

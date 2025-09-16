@@ -1,0 +1,19 @@
+package ch1;
+
+public class BreadMain {
+
+	public static void main(String[] args) {
+		// 좋아하는 빵의 객체를 생성자의 매개변수 갯수를 달리하여 두 개 만들고
+		
+		Bread bread1 = new Bread("FruitsSando", 300, 6000, 2);
+		Bread bread2 = new Bread("FruitsSando", 300, 6000, 2);
+		
+		
+		// 해당 제품명과 금액을 출력
+		
+		System.out.println(bread1.breadTotal());
+		System.out.println(bread2.breadTotTal(0););
+		
+	}
+
+}

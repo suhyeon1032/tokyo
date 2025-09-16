@@ -1,0 +1,17 @@
+package ch1;
+
+public class Bread {
+	
+	// 속성 == 필드
+	private String name;
+	private int gram;
+	private int price;
+	private int cnt;
+	
+	public Bread() {
+		// super(); // 기본 생성자가 필요해서 만들어둠 // 다른 클래스가 상속받는 부모(상위) 클래스. 공통 속성, 동작을 수퍼클래스에 정의
+	}
+	
+	
+	
+}

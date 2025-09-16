@@ -1,0 +1,77 @@
+package ch2;
+
+import java.util.Scanner;
+
+/* 
+ * 반복문
+ * 
+ * 초기값:
+ * while(조건) {
+ * 실행문;
+ * 증감값;
+ * }
+ * 
+ * */
+public class WhileEx1 {
+
+	public static void main(String[] args) {
+		// 1 ~ 5까지 출력
+		int i = 1;
+		while(i <= 5) {
+			System.out.println(i);
+			i++; // 반드시 증감의 값이 있어야 함
+		}
+		
+		// "home" 3번 출력
+		i = 1;
+		while(i <= 3) {
+			System.out.println("home");
+			i++; // 반드시 증감의 값이 있어야 함
+		}
+		
+		System.out.println("===========");
+		// 10 ~ 까지 거꾸로 출력
+		i = 10;
+		while (i >= 1) {
+			System.out.println(i);
+			i--;
+		}
+		
+		System.out.println("===========");
+		// 1 ~ 10 까지중에 홀수만 출력
+		i = 1;
+		while (i <= 10) {
+			System.out.println(i);
+			i += 2;
+		}
+		
+		System.out.println("===========");
+		// 1 ~ 10 까지중에 짝수만 출력
+		int e = 2;
+		while (e <= 10) {
+			System.out.println(e);
+			e += 2;
+		}
+		
+		System.out.println("===========");
+		// 1 ~ 5까지 합
+		i = 1; 
+		int sum = 0;
+		while (i <= 5) {
+			sum += i;
+			i++;
+		}
+		System.out.println(sum);
+		
+		System.out.println("===========");
+		// 두 수를 입력받아 합계 출력
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("숫자 두개를 입력하세요. : ");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		System.out.println(a + b);
+	}
+
+}

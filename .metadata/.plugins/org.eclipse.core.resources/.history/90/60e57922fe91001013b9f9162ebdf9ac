@@ -1,0 +1,68 @@
+package ch1;
+
+public class MethodEx1 {
+	
+	// 돌려주는 값이 없는 경우. 기본
+	public static void sayHello() {
+		System.out.println("hello");
+	}
+	
+	
+	
+	// 매개변수가 있는 메서드
+	public static void getName(String name) {
+		System.out.println("안녕, " + name);
+		
+	}
+	
+	public static int multi(int num) {
+		return num * num;
+	}
+	
+	// void
+	public static void printSum(int a, int b) {
+		System.out.println("void : " + (a + b));
+	}
+	
+	// return 리턴 키워드가 있는 애는 돌려주는 데이터 타입을 작성해주어야 한다.
+	private static double getSum(double a, double b) {
+		return a * b;
+	}
+	
+	private static boolean isAdult(int age) {
+		return age > 18;
+	}
+	
+	// 메서드 호출 (main 메서드)
+	public static void main(String[] args) {
+		// 실행만 함
+		sayHello();
+		
+		// 매개변수로 이름을 받음
+		getName("한라봉");
+		getName("곤지암");
+		getName("프린세스");
+		
+		System.out.println(multi(23));
+		
+		
+		// void VS return 차이
+		printSum(1, 2);
+		double result = getSum(1.2, 3.3);
+		System.out.println("return : " + result);
+		
+		// 성인 인증 return 
+		System.out.println(isAdult(20));
+		//isAdult(20); // 성인 : true/
+		
+		
+		// 오버로딩
+		System.out.println(calc(2,2,2));
+		System.out.println(calc(1.2,3.333));
+	}
+
+
+
+	
+
+}

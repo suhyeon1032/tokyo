@@ -1,0 +1,20 @@
+package ch1;
+
+import java.util.Scanner;
+
+public class ScannerEx {
+
+	public static void main(String[] args) {
+
+		// 붕어빵 틀에서 붕어빵을 만들면 객체 / 사람이 그걸 먹으면 인스턴스
+		// class : 설계도. 붕어틀
+		// 객체, 인스턴스 : 클래스로부터 실제 사용할 수 있게 만들어져 메모리에 존재하는 것. 붕어빵
+		
+		// 사용자로부터 입력받음
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("점수를 입력해주세요 : ");
+		
+	}
+
+}

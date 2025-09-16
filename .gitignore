@@ -1,0 +1,17 @@
+# 특정 파일
+// secret.txt
+
+# 특정 확장자 모두 무시
+*.log
+*.tmp
+
+# 특정 폴더 전체 무시
+config/
+node_modules/
+build/
+
+# 특정 폴더 안의 특정 파일만 무시
+data/passwords.json
+
+# 모든 .env 파일 무시
+*.env

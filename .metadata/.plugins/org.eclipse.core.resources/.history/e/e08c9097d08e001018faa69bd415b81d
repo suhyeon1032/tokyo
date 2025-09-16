@@ -1,0 +1,59 @@
+package Exam;
+
+import java.util.Scanner;
+
+public class day2Ex {
+
+	public static void main(String[] args) {
+		
+		System.out.println("#1 =================");
+		String pw = "qwer1234";
+		if (pw == "qwer1234") {
+			System.out.println("비밀번호가 맞아요!!!");
+		} else {
+			System.out.println("비밀번호가 틀렸어요!!ㅜㅜ");
+		}
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("비밀번호를 입력해주세요. : ");
+		String userPw = sc.nextLine();
+		System.out.println(userPw);
+		if (userPw.equals("qwer1234")) {
+			System.out.println("비밀번호가 맞아요!!!");
+		} else {
+			System.out.println("비밀번호가 틀렸어요!!ㅜㅜ");
+		}
+		
+		String animal = "강아지";
+		switch (animal) {
+		case "강아지" : {
+			System.out.println("멍멍");
+			break;
+		} case "고양이" : {
+			System.out.println("야옹");
+			break;
+		}
+		default:
+			System.out.println("무슨 동물이야?");
+		}
+		
+		
+		String userAnimal = sc.nextLine();
+		switch (userAnimal) {
+		case "강아지" : {
+			System.out.println("멍멍");
+			break;
+		} case "고양이" : {
+			System.out.println("야옹");
+			break;
+		}
+		default:
+			System.out.println("무슨 동물이야?");
+		}
+		
+		
+	}
+	
+
+}

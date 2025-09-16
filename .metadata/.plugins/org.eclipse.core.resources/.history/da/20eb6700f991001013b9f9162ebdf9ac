@@ -1,0 +1,27 @@
+package Exam;
+
+import java.util.Scanner;
+
+public class day3Ex01 {
+
+	public static void main(String[] args) {
+		System.out.println("총 치킨 조각 수 : " + chicken(8));
+		
+		System.out.println("오늘 하루 마신 카페인량 : " + coffee(80));
+	}
+
+	public static int chicken(int jo) {
+		System.out.println("치킨 수를 입력하세요. : ");
+		Scanner sc = new Scanner(System.in);
+		return sc.nextInt() * jo;
+	}
+	
+	public static int coffee(int ca) {
+		System.out.println("마신 커피 수를 입력하세요. : ");
+		Scanner sc = new Scanner(System.in);
+		return sc.nextInt() * ca;
+	}
+	
+	
+
+}

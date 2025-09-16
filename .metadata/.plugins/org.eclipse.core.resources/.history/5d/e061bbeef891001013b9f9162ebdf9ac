@@ -1,0 +1,24 @@
+package ch1;
+
+public class MethodEx1 {
+	
+	// 돌려주는 값이 없는 경우. 기본
+	public static void sayHello() {
+		System.out.println("hello");
+	}
+	
+	// 매개변수가 있는 메서드
+	public static void getName(String name) {
+		System.out.println("안녕, " + name);
+		
+	}
+
+	public static void main(String[] args) {
+		// 실행만 함
+		sayHello();
+		
+		// 매개변수로 이름을 받음
+		getName("한라봉");
+	}
+
+}

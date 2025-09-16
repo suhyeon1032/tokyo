@@ -1,0 +1,9 @@
+package dya4;
+
+public class PizzaMain {
+
+	public static void main(String[] args) {
+		Pizza pizza1 = new Pizza("페퍼로니", "L");
+	}
+
+}
