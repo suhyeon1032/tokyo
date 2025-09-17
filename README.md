@@ -22,7 +22,7 @@
 <div markdown="1">
 
 [20250915 과제](https://github.com/suhyeon1032/tokyo/blob/main/java/Exammmm/src/Exam/day3Ex01.java)</br>
-[20250916 과제](https://github.com/suhyeon1032/tokyo/tree/main/java/Exammmm/src/dya4
+[20250916 과제](https://github.com/suhyeon1032/tokyo/tree/main/java/Exammmm/src/dya4)
 
 
 </div>
