@@ -1,0 +1,22 @@
+package ch1;
+
+import java.util.Scanner;
+
+public class Control4 {
+	public static void main(String[] args) {
+		// "토요일", "일요일" 을 입력하면 "주말" 출력, 나머지 입력 시 "주중" 출력
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("요일을 입력해주세요. : ");
+		String day = sc.nextLine();
+		String answer;
+		if (day.equals("토요일") || day.equals("일요일")) answer = "주말";
+		else answer = "주중";
+		
+		System.out.println(answer);
+		
+		sc.close();
+
+}
+}

@@ -1,0 +1,29 @@
+package ch1;
+
+import java.util.Scanner;
+
+public class Control2 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		// 90점 이상이면 A, 80 <= B, 70 <= C, else == D
+		System.out.println("점수 입력 : ");
+		int score = sc.nextInt();
+
+		char grade; // 한글자만 저장 가능
+		if (score >= 90 && score <= 100) {
+			grade = 'A';
+		} else if (score >= 80 && score <= 89) {
+			grade = 'B';
+		} else if (score >= 70 && score <= 79) {
+			grade = 'C';
+		} else {
+			grade = 'D';
+		}
+
+		System.out.println("입력한 점수는 " + score + "점이고, 등급은 " + grade + "입니다.");
+	}
+
+}

@@ -1,0 +1,24 @@
+package dya4;
+
+public class day4Main {
+
+	public static void main(String[] args) {
+		Pizza pizza = new Pizza();
+		pizza.setName("하와이안");
+		pizza.setSize("L");
+		
+		Song song = new Song("Brno Mars", "Die With A Smile");
+		
+		InstagramPost ip = new InstagramPost("수현", "집에 가고 싶어요.");
+		DeliveryOrder deliveroder = new DeliveryOrder("떡볶이", "기숙사");
+		
+		System.out.println(pizza);
+		
+		System.out.println(song.getArtist() + "의 " + song.getTitle() + song.play());
+		
+		ip.post();
+		deliveroder.deliver();
+		
+	}
+
+}
