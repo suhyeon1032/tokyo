@@ -16,6 +16,7 @@
 [20250912 블로그 정리](https://velog.io/@daram9/이것이-자바다Chapter-5-참조타입)
 
 </div>
+</details>
 
 <summary> <h2> 2주차 </h2></summary>
 
