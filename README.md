@@ -6,7 +6,7 @@
 
 <details>
 
-<summary> <h2> 1주차 </h2></summary>
+<summary><h2> 1주차 </h2></summary>
 
 <div markdown="1">
 
@@ -18,13 +18,12 @@
 </div>
 </details>
 
-<summary> <h2> 2주차 </h2></summary>
+<summary><h2> 2주차 </h2></summary>
 
-<div markdown="1">
+<div markdown="2">
 
 [20250915 과제](https://github.com/suhyeon1032/tokyo/blob/main/java/Exammmm/src/Exam/day3Ex01.java)</br>
 [20250916 과제](https://github.com/suhyeon1032/tokyo/tree/main/java/Exammmm/src/dya4)
-
 
 </div>
 
