@@ -1,4 +1,4 @@
-package day5;
+package ch1;
 
 /*
  * 학생 관리 프로그램

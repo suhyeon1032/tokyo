@@ -1,4 +1,4 @@
-package day5;
+package ch1;
 /*
  * 요구사항 분석
  * 

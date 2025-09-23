@@ -1,4 +1,4 @@
-package day5;
+package ch1;
 
 public class MemberMain {
 
