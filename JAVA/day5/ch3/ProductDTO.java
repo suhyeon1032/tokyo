@@ -50,8 +50,8 @@ public class ProductDTO {
 		this.total = this.qty * this.price;
 	}
 	
-	public ProductDTO(String name, int qty, int price) {
-//		this.id = id;
+	public ProductDTO(int id, String name, int qty, int price) {
+		this.id = id;
 		this.name = name;
 		this.qty = qty;
 		this.price = price;
