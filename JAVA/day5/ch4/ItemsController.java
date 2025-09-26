@@ -3,8 +3,6 @@ package ch4;
 import java.util.List;
 import java.util.Scanner;
 
-import ch3.ProductDTO;
-
 public class ItemsController {
 	
 	Scanner sc = new Scanner(System.in);
@@ -49,6 +47,7 @@ public class ItemsController {
 		}
 	}
 
+	// 상품 업데이트
 	private void updateItems() {
 		List<ItemsDTO> item = service.getAllItems();
 		
@@ -109,7 +108,7 @@ public class ItemsController {
 
 	// 전체 상품 조회
 	private void selectAllItems() {
-		List<ItemsDTO> item = service.getAllItems();
+		/*List<ItemsDTO> item = service.getAllItems();
 		
 		if (item.isEmpty()) System.out.println("등록된 아이템이 없습니다.");
 		else {
@@ -117,7 +116,16 @@ public class ItemsController {
 				System.out.println(dto);
 			}
 		}
-		System.out.println();
+		System.out.println();*/
+		List<ItemsDTO> list = service.getAllItems();
+		
+		if (list.isEmpty()) {
+			System.out.println("등록된 아이템이 없습니다.");
+		} else {
+			for (ItemsDTO dto : list) {
+				System.out.println(dto);
+			}
+		}
 	}
 
 	// 아이템 추가
@@ -132,7 +140,6 @@ public class ItemsController {
 		service.saveAllItems(name, qty, price);
 		
 		System.out.println("등록 완료!");
-		
 	}
 
 	

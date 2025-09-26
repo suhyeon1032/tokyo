@@ -1,22 +1,33 @@
 package ch4;
 
-import java.util.Iterator;
 import java.util.List;
 
 public class ItemsService {
 	
 	private ItemsDAO dao;
+	private int nextId;
 
 	public ItemsService(ItemsDAO dao) {
 		this.dao = dao;
+		this.nextId = getId();
+	}
+	
+
+	// 읽어온 파일에서 가장 큰 상품번호 구하기
+	private int getId() {
+		int max = 0;
+		for(ItemsDTO dto : dao.findAll()) {
+			if (dto.getId() > max) max =  dto.getId();
+		}
+		return max;
 	}
 
+
 	// 상품 등록
-	int indexId = 0;
 	public void saveAllItems(String name, int qty, int price) {
-		ItemsDTO dto = new ItemsDTO(indexId++, name, qty, price);
+		ItemsDTO dto = new ItemsDTO(nextId++, name, qty, price);
 		
-		dto.setId(indexId);
+		dto.setId(nextId);
 		dto.setName(name);
 		dto.setQty(qty);
 		dto.setPrice(price);

@@ -1,5 +1,7 @@
 package ch4;
 
+import java.text.DecimalFormat;
+
 /*
  * 요구사항
  * -. 아이템번호(자동 증가), 아이템명, 수량, 가격, 합계
@@ -18,6 +20,7 @@ public class ItemsDTO {
 	private int qty;
 	private int price;
 	private int total;
+	
 	public int getId() {
 		return id;
 	}
@@ -35,6 +38,7 @@ public class ItemsDTO {
 	}
 	public void setQty(int qty) {
 		this.qty = qty;
+		setTotal();
 	}
 	public int getPrice() {
 		return price;
@@ -50,16 +54,18 @@ public class ItemsDTO {
 		this.total = this.qty * this.price;
 	}
 	public ItemsDTO(int id, String name, int qty, int price) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.qty = qty;
 		this.price = price;
 	}
 	
+	DecimalFormat df = new DecimalFormat("#,###"); //#,###.###0 소수점도 표현 가능
+	
 	@Override
 	public String toString() {
-		return "제품 번호: " + id + ", 이름: " + name + ", 수량: " + qty + ", 가격: " + price + ", 총합: " + total;
+//		return "제품 번호: " + id + ", 이름: " + name + ", 수량: " + qty + ", 가격: " + price + ", 총합: " + total;
+		return String.format("번호:%d, | 상품명: %s | 수량: %d개 | 가격: %s원 | 합계: %s원", id, name, qty, df.format(price), df.format(total));
 	}
 	
 	
