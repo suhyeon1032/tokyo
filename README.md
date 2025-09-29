@@ -2,10 +2,18 @@
 
 신한 GYC IT 수업 내용 정리 😺
 
+
 <details>
+<summary><h2> 3주차 </h2></summary>
+<div markdown="1">
 
+[20250925 과제](https://github.com/suhyeon1032/tokyo/tree/main/JAVA/Exam/20250926)</br>
+
+</div>
+</details>
+
+<details>
 <summary><h2> 2주차 </h2></summary>
-
 <div markdown="1">
 
 [20250915 과제](https://github.com/suhyeon1032/tokyo/tree/main/JAVA/Exam/20250915)</br>
@@ -15,6 +23,7 @@
 
 </div>
 </details>
+
 <details>
 <summary><h2> 1주차 </h2></summary>
 
